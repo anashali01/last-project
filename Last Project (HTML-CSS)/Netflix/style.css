@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url("bg.jpg");
+    height: 950px;
+    background-size: cover;
+    background-position: center;   
+    position: relative;
+    
+}
+#logo{
+    transform: translate(90px,35px);
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+
+}
+input{
+    background-color: rgb(58, 55, 55);
+    width: 100%;
+    border: none;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+::placeholder{
+    color: rgb(136, 129, 129);
+}
+form{
+    background-color: rgba(0,0,0,0.80);
+    padding: 90px 40px;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.checkbox input{
+    width: 15px;
+}
+.checkbox label{
+    margin-right: 170px;
+}
+#text{
+    margin-bottom: 70px;
+}
+p{
+    margin-top: 10px
+}
+span{
+    color: rgb(161, 149, 149);
+}
+p{
+    color: rgb(161, 149, 149);
+}
+label{
+    color: rgb(161, 149, 149);
+}

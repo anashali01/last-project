@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+}
+header{
+    text-align: right;
+    padding: 20px 15px;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color: rgb(177, 163, 163);
+    margin-left: 30px;
+}
+.profile{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: black;
+}
+.banner{
+    text-align: center;
+}
+.logo{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+input{
+    border: 1px solid rgb(182, 178, 168);
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+}
+form{
+    position: relative;
+    margin-bottom: 35px;
+}
+.ri-search-line{
+    position: absolute;
+    left: 31%;
+    top: 10px;
+    
+}
+#mic{
+    position: absolute;
+    width: 18px;
+    left: 63%;
+    top: 10px;
+}
+#lens{
+    position: absolute;
+    width: 30px;
+    left: 66%;
+    top: 5px;
+}
+.banner a{
+    color: black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner a:hover{
+    box-shadow: 0px 0px 2px 0px black;
+}
+#text{
+    margin-top: 3%;
+    color: rgb(85, 80, 80);
+    margin-bottom: 7%;
+}
+span{
+    color: blue;
+    font-size: 15px;
+}
+#location{
+    background-color: rgb(218, 213, 213);
+    padding: 25px;
+    border-bottom: 1px solid gray;
+}
+footer a{
+    color: black;
+}
+#right-footer{
+    background-color: rgb(218, 213, 213);
+    padding: 25px;
+    list-style: none;
+}
+ul li{
+    display: inline;
+}
+li{
+    padding-right: 20px;
+}
+.left{
+    float: right;
+}
+li:hover{
+    text-decoration: underline;
+}
